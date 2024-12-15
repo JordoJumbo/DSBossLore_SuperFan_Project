@@ -1,0 +1,223 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+.areaBox {
+  height: 100%;
+  width: 25%;
+  display: block;
+}
+.bossBox {
+  height: 100%;
+  width: 75%;
+}
+.areaBoxHalf {
+  height: 50%;
+  width: 100%;
+}
+.box {
+  height: 50%;
+  width: 100%;
+}
+.boxBig {
+  height: 75%;
+  width: 100%;
+}
+.boxThin {
+  height: 25%;
+  width: 100%;
+}
+
+.green {
+  background-color: #008d24;
+}
+.baby-blue {
+  background-color: #689cce;
+  color: #a9a9a9;
+}
+.purple {
+  background-color: #3a246d;
+  color: #a9a9a9;
+}
+.red {
+  background-color: #ca1b22;
+  color: #a9a9a9;
+}
+.orange {
+  background-color: #ea6626;
+  color: #a9a9a9;
+}
+.black {
+  background-color: #000000;
+  color: #a9a9a9;
+}
+.white {
+  background-color: #ffffff;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.bgImg {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 100%;
+}
+.duArc {
+  background-image: url("images/Archives.PNG"); /* The image used */
+}
+.duArcDC {
+  background-image: url("images/Gabagool.jpg"); /* The image used */
+}
+.toGia {
+  background-image: url("images/Tomb.PNG"); /* The image used */
+}
+.loIza {
+  background-image: url("images/Izalith.PNG"); /* The image used */
+}
+.neLon {
+  background-image: url("images/Ruins.PNG"); /* The image used */
+}
+.teBox {
+  background-image: url("images/Text_Box.WEBP"); /* The image used */
+}
+
+.h1 {
+  font-size: 165%;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  font-weight: bold;
+}
+.h2 {
+  font-size: 165%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.h3 {
+  margin: 0;
+  line-height: 1.2;
+  display: flex;
+}
+.translucent {
+  opacity: 0.6;
+}
+.translucent:hover {
+  cursor: default;
+  opacity: 0.6;
+}
+.translucent2:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+.buttonOver:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.buttonOver:active {
+  transform: scale(0.99); /* subtle zoom-out effect */
+  opacity: 1;
+  opacity: 0.85;
+}
+.bgcolor {
+  background-color: black;
+}
+
+@media only screen and (max-width: 990px) {
+  .h2 {
+    font-size: 140%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    display: block;
+  }
+  .areaBox {
+    height: 20%;
+    width: 100%;
+    display: flex;
+  }
+  .areaBoxHalf {
+    height: 100%;
+    width: 50%;
+    display: flex;
+  }
+  .box {
+    height: 100%;
+    width: 50%;
+  }
+  .bossBox {
+    height: 80%;
+    width: 100%;
+  }
+  .boxBig {
+    height: 65%;
+    width: 100%;
+  }
+  .boxThin {
+    height: 35%;
+    width: 100%;
+  }
+  .h2 {
+    font-size: 140%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    display: block;
+  }
+  .areaBox {
+    height: 30%;
+    width: 100%;
+    display: block;
+  }
+  .areaBoxHalf {
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+  .box {
+    height: 100%;
+    width: 50%;
+  }
+  .bossBox {
+    height: 70%;
+    width: 100%;
+  }
+  .boxBig {
+    height: 60%;
+    width: 100%;
+  }
+  .boxThin {
+    height: 40%;
+    width: 100%;
+  }
+  .h2 {
+    font-size: 120%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .h2 {
+    font-size: 89%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

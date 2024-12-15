@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/LordSoul.png" />
+    <title>DSBossLore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="areaBox light-grey">
+      <div class="areaBoxHalf orange">
+        <div
+          class="box orange bgImg duArc h1 h3 translucent2"
+          onclick="changeDuke()"
+          onmouseover="menuNavigateSound()"
+          id="squ1"
+        >
+          <p class="" id="areaText1">The Duke's Archives</p>
+        </div>
+        <div
+          class="box orange bgImg toGia h1 h3 translucent2"
+          onclick="changeNito()"
+          onmouseover="menuNavigateSound()"
+          id="squ2"
+        >
+          <p class="" id="areaText2">Tomb of the Giants</p>
+        </div>
+      </div>
+      <div class="areaBoxHalf orange">
+        <div
+          class="box orange bgImg loIza h1 h3 translucent2"
+          onclick="changeBed()"
+          onmouseover="menuNavigateSound()"
+          id="squ3"
+        >
+          <p class="" id="areaText3">Lost Izalith</p>
+        </div>
+        <div
+          class="box orange bgImg neLon h1 h3 translucent2"
+          onclick="changeKings()"
+          onmouseover="menuNavigateSound()"
+          id="squ4"
+        >
+          <p class="" id="areaText4">New Londo Ruins</p>
+        </div>
+      </div>
+    </div>
+    <div class="bossBox dark-grey">
+      <div class="boxBig black">
+        <img id="bossImage" src="images/Firelink_Shrine.WEBP" onclick="bossClick()"/>
+      </div>
+      <div class="boxThin black bgImg teBox h2"">
+        <p class="h3" id="areaText5">
+          Click on a location to learn about it's lord! All information sourced
+          from https://darksouls.wiki.fextralife.com
+        </p>
+      </div>
+    </div>
+    <audio
+      autoplay
+      loop
+      src="sounds/FireLink.mp3"
+      type="audio/mp3"
+      id="DSbgm"
+    ></audio>
+    <audio
+      src="sounds/DarkSoulsHover.mp3"
+      type="audio/mp3"
+      id="DSHover"
+    ></audio>
+    <audio
+      src="sounds/DarkSoulsSelect.mp3"
+      type="audio/mp3"
+      id="DSSelect"
+    ></audio>
+    <audio
+    loop
+      src="sounds/SeathBossTheme.mp3"
+      type="audio/mp3"
+      id="BossTheme1"
+    ></audio>
+    <audio
+    loop
+      src="sounds/NitoBossTheme.mp3"
+      type="audio/mp3"
+      id="BossTheme2"
+    ></audio>
+    <audio
+    loop
+      src="sounds/BedBossTheme.mp3"
+      type="audio/mp3"
+      id="BossTheme3"
+    ></audio>
+    <audio
+    loop
+      src="sounds/KingsBossTheme.mp3"
+      type="audio/mp3"
+      id="BossTheme4"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
